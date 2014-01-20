@@ -21,6 +21,7 @@
 		305010D0188CF25C00BA56DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305010B2188CF25B00BA56DB /* UIKit.framework */; };
 		305010D8188CF25C00BA56DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 305010D6188CF25C00BA56DB /* InfoPlist.strings */; };
 		305010DA188CF25C00BA56DB /* BluetoothLE_StatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305010D9188CF25C00BA56DB /* BluetoothLE_StatusTests.m */; };
+		30F84F8A188CF3B6007E21DC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F84F89188CF3B6007E21DC /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		305010D5188CF25C00BA56DB /* BluetoothLE StatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothLE StatusTests-Info.plist"; sourceTree = "<group>"; };
 		305010D7188CF25C00BA56DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		305010D9188CF25C00BA56DB /* BluetoothLE_StatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothLE_StatusTests.m; sourceTree = "<group>"; };
+		30F84F89188CF3B6007E21DC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F84F8A188CF3B6007E21DC /* CoreBluetooth.framework in Frameworks */,
 				305010B1188CF25B00BA56DB /* CoreGraphics.framework in Frameworks */,
 				305010B3188CF25B00BA56DB /* UIKit.framework in Frameworks */,
 				305010AF188CF25B00BA56DB /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		305010AD188CF25B00BA56DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30F84F89188CF3B6007E21DC /* CoreBluetooth.framework */,
 				305010AE188CF25B00BA56DB /* Foundation.framework */,
 				305010B0188CF25B00BA56DB /* CoreGraphics.framework */,
 				305010B2188CF25B00BA56DB /* UIKit.framework */,
@@ -460,6 +464,7 @@
 				305010DF188CF25C00BA56DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		305010E0188CF25C00BA56DB /* Build configuration list for PBXNativeTarget "BluetoothLE StatusTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				305010E2188CF25C00BA56DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
